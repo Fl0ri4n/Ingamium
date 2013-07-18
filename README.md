@@ -22,12 +22,12 @@ Ingamium is a plugin for the free chat client Adium. It allows you to receive me
 * Add more games!
 
 ### Changelog:
-#### Version 1.3
+#### Version 1.4
 * Overall code and project cleanup (changeover to SMJobBless-API)
 * Update to latest mach_inject and mach_override
 * Support for OS X 10.8 Mountain Lion
 
-#### Version 1.2.1
+#### Version 1.3
 * Support for Sandbox-Apps from MAS
 * Performance-Fix for Call of Duty 4
 * Improved compatibility and stability
