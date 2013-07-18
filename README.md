@@ -48,7 +48,9 @@ Ingamium is a plugin for the free chat client Adium. It allows you to receive me
 * Lead development: Florian Bethke
 * Application icon: Keyes
 * Homepage (currently not online): Felix Wandler
-* SMJobBless demo code: Erwan Barrier
+* [mach_inject](https://github.com/rentzsch/mach_inject) and [mach_override](https://github.com/rentzsch/mach_override) by Jonathan Rentzsch
+* [SMJobBless](https://github.com/erwanb/MachInjectSample) demo code: Erwan Barrier
+
 
 ### Screenshots
 ![Ingame Message](https://raw.github.com/Fl0ri4n/Ingamium/master/Resources/screenshot1.png)
