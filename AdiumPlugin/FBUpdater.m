@@ -47,7 +47,7 @@
 	NSString *gamespath = [[NSBundle bundleForClass:[self class]] pathForResource:@"Games" ofType:@"plist"];
 	NSArray *oldGames = [NSArray arrayWithContentsOfFile:gamespath];
 	
-	NSURL *url = [NSURL URLWithString:@"http://ingamium.games4mac.de/Updates/Games.plist"];
+	NSURL *url = [NSURL URLWithString:@"https://raw.github.com/Fl0ri4n/Ingamium/master/Resources/Games.plist"];
 	NSArray *newGames = [NSArray arrayWithContentsOfURL:url];
 	
 	NSArray *updatedGames = [self compareArray:oldGames withArray:newGames];
