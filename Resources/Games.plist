@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Age of Empires III - The Asian Dynasties.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Age of Empires III - The WarChiefs.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Age of Empires III.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Angry Birds Rio.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Angry Birds.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>AnomalyWarzoneEarth.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Aquaria.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Armagetron Advanced.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<string>10</string>
+		<key>Name</key>
+		<string>BaboInvasion.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bioshock.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<string>1</string>
+		<key>Name</key>
+		<string>Black &amp; White 2 Loader.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Blobby Volley 2.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Call of Duty 2 Multiplayer.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Call of Duty 2.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Call of Duty 4 Multiplayer.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Call of Duty 4.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Call of Duty MP.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Call of Duty SP.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>CoD United Offensive MP.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>CoD United Offensive SP.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Command &amp; Conquer Generals.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Deus Ex Human Revolution.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Diablo 2 Lord of Destruction</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Diablo III.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>60</real>
+		<key>Name</key>
+		<string>Die Sims™ 3.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>DiRT 2.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Doom 3.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Duke Nukem Forever.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Enigmo 2.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Enigmo.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>EZQuake-GL.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>FlatOut 2.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>GLQuake.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>GLQuakeWorld.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>30</real>
+		<key>Name</key>
+		<string>GTA San Andreas.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Halo.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Heroes of Newerth.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<string>60</string>
+		<key>Name</key>
+		<string>hl2_osx</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<string>10</string>
+		<key>Name</key>
+		<string>HoN</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>ioquake3-1.34rc1.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>ioUrbanTerror.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lugaru.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>MonkeyIsland101.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>MonkeyIsland102.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>MonkeyIsland103.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>MonkeyIsland104.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>MonkeyIsland105.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Nexuiz.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Osmos Demo.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Osmos.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>PenumbraDemo.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pflanzen gegen Zombies.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Postal 2.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Quake 4.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Quake.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>QuakeWorld.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Race Driver 3 Honda Civic Demo.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>RAGE.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>sauerbraten.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Savage 2.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>SC2.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>30</real>
+		<key>Name</key>
+		<string>SPORE.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>SuperTuxKart.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Teeworlds.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<string>60</string>
+		<key>Name</key>
+		<string>The Sims Medieval.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>60</real>
+		<key>Name</key>
+		<string>The Sims™ 3.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Tomb Raider Anniversary.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TorchlightMac.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Toribash.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tremulous.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Unreal Tournament 2004.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Warcraft III.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<string></string>
+		<key>Name</key>
+		<string>Warsow SDL.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wolfenstein ET.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Minimum OS</key>
+		<string></string>
+		<key>Name</key>
+		<string>World of Goo.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>1</real>
+		<key>Name</key>
+		<string>World of Warcraft.app</string>
+	</dict>
+	<dict>
+		<key>Delay</key>
+		<real>10</real>
+		<key>Name</key>
+		<string>Zero Hour.app</string>
+	</dict>
+</array>
+</plist>

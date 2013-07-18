@@ -1,0 +1,25 @@
+set recipientName to "Florian Bethke"
+set recipientAddress to "florianbethke@gmail.com"
+set theSubject to "Ingamium: New Games!"
+set theContent to "Hi, 
+
+I found some new games for Ingamium. They«re attached to the mail.
+
+The Games <INSERT GAME NAMES> are working flawless with Ingamium.
+
+The Games <INSERT GAME NAMES> are making some problems, <DESCRIBE HERE>"
+
+tell application "Mail"
+	
+	set theMessage to make new outgoing message with properties {subject:theSubject, content:theContent, visible:true}
+	
+	tell theMessage
+		make new to recipient with properties {name:recipientName, address:recipientAddress}
+		set thePath to ((path to home folder)) & "Library:Application Support:Adium 2.0:PlugIns:Ingamium.AdiumPlugin:Contents:Resources:Games.plist"
+		set UnixPath to the POSIX path of (thePath as string)
+		make new attachment at end of content with properties {file name:UnixPath}
+		--Send the Message
+		--send
+		
+	end tell
+end tell

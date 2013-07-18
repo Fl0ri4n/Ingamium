@@ -1,0 +1,1334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C38578E116BA7C000A0E1CF /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C38578D116BA7C000A0E1CF /* PreferenceWindow.xib */; };
+		5C3872A3116BB8B700A0E1CF /* Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5C3872A2116BB8B700A0E1CF /* Add.tiff */; };
+		5C3872A5116BB8C200A0E1CF /* Remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5C3872A4116BB8C200A0E1CF /* Remove.tiff */; };
+		5C484BEA118F6D5400C760D7 /* paypal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C484BE9118F6D5400C760D7 /* paypal.jpg */; };
+		5C4A7866116D2545005BA345 /* SendMail.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A7865116D2545005BA345 /* SendMail.txt */; };
+		5C5163CB11FF48D7000172AE /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5C5163CA11FF48D7000172AE /* Icon.icns */; };
+		5C59C094179708FF00039BFB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAB0FC41796E27100C203D0 /* Cocoa.framework */; };
+		5C59C09A179708FF00039BFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C59C098179708FF00039BFB /* InfoPlist.strings */; };
+		5C59C09C179708FF00039BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C59C09B179708FF00039BFB /* main.m */; };
+		5C59C0A3179708FF00039BFB /* FBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C59C0A2179708FF00039BFB /* FBAppDelegate.m */; };
+		5C59C0A61797090000039BFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C59C0A4179708FF00039BFB /* MainMenu.xib */; };
+		5C59C0AB1797092B00039BFB /* com.florianbethke.Ingamium.Injector in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CFAF0291796EB1000B174D2 /* com.florianbethke.Ingamium.Injector */; };
+		5C59C0AC1797092B00039BFB /* com.florianbethke.Ingamium.Installer in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CFAF0451796EE2A00B174D2 /* com.florianbethke.Ingamium.Installer */; };
+		5C59C0B017970A8900039BFB /* DKInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF05F1796F44F00B174D2 /* DKInstaller.m */; };
+		5C59C0B217970AC900039BFB /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C59C0B117970AC900039BFB /* ServiceManagement.framework */; };
+		5C59C0B417970B1200039BFB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C59C0B317970B1200039BFB /* Security.framework */; };
+		5C59C0BE17970E3E00039BFB /* DKFrameworkInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C59C0B717970E3E00039BFB /* DKFrameworkInstaller.m */; };
+		5C59C0C017970E3E00039BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C59C0BD17970E3E00039BFB /* main.m */; };
+		5C59C0CD179711B500039BFB /* mach_inject_bundle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C7D93101163ACC500A10520 /* mach_inject_bundle.framework */; };
+		5C59C0D017972BCC00039BFB /* Icon2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5C59C0CF17972BCC00039BFB /* Icon2.icns */; };
+		5C6329D31181D8C1002A8695 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6329D01181D8C1002A8695 /* Adium.framework */; };
+		5C6329D41181D8C1002A8695 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6329D11181D8C1002A8695 /* AIUtilities.framework */; };
+		5C6329D51181D8C1002A8695 /* FriBidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6329D21181D8C1002A8695 /* FriBidi.framework */; };
+		5C81C15F11FF277600E40A06 /* DeletedGames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C81C15E11FF277600E40A06 /* DeletedGames.plist */; };
+		5CAB0FC51796E27100C203D0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAB0FC41796E27100C203D0 /* Cocoa.framework */; };
+		5CAB0FE11796E47200C203D0 /* FBAdiumInGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB0FD61796E47200C203D0 /* FBAdiumInGame.m */; };
+		5CAB0FE21796E47200C203D0 /* FBKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB0FD81796E47200C203D0 /* FBKeyboard.m */; };
+		5CAB0FE31796E47200C203D0 /* FBPreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB0FDA1796E47200C203D0 /* FBPreferenceWindow.m */; };
+		5CAB0FE41796E47200C203D0 /* FBTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB0FDC1796E47200C203D0 /* FBTabView.m */; };
+		5CAB0FE51796E47200C203D0 /* FBUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB0FDE1796E47200C203D0 /* FBUpdater.m */; };
+		5CAB0FE61796E47200C203D0 /* FBWordWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB0FE01796E47200C203D0 /* FBWordWrap.m */; };
+		5CD1A07317972D8300D28D30 /* Ingamium Installer.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C59C093179708FF00039BFB /* Ingamium Installer.app */; };
+		5CD8D8811180E88A009812DF /* Games.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8D8801180E88A009812DF /* Games.plist */; };
+		5CFAF00D1796E53D00B174D2 /* chatfenster.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CFAF0011796E53D00B174D2 /* chatfenster.png */; };
+		5CFAF00E1796E53D00B174D2 /* FBNotificationReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF0031796E53D00B174D2 /* FBNotificationReceiver.m */; };
+		5CFAF00F1796E53D00B174D2 /* FBWordWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF0051796E53D00B174D2 /* FBWordWrap.m */; };
+		5CFAF0101796E53D00B174D2 /* GLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF0071796E53D00B174D2 /* GLString.m */; };
+		5CFAF0121796E53D00B174D2 /* InGameOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF00B1796E53D00B174D2 /* InGameOverlay.m */; };
+		5CFAF01C1796E64B00B174D2 /* mach_override.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF0161796E64B00B174D2 /* mach_override.c */; };
+		5CFAF0211796E6A200B174D2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFAF0201796E6A200B174D2 /* OpenGL.framework */; };
+		5CFAF0221796E81100B174D2 /* InGameOverlay.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CAB0FC21796E27100C203D0 /* InGameOverlay.bundle */; };
+		5CFAF02B1796EB1000B174D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFAF02A1796EB1000B174D2 /* Foundation.framework */; };
+		5CFAF02E1796EB1000B174D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF02D1796EB1000B174D2 /* main.m */; };
+		5CFAF03A1796EBA200B174D2 /* DKInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF0371796EBA100B174D2 /* DKInjector.m */; };
+		5CFAF0401796EDF200B174D2 /* mach_inject_bundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D93101163ACC500A10520 /* mach_inject_bundle.framework */; };
+		5CFAF0461796EE2A00B174D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFAF02A1796EB1000B174D2 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C59C0AD17970A4600039BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C59C092179708FF00039BFB;
+			remoteInfo = HelperApp;
+		};
+		5C59C0C21797118300039BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFAF0281796EB1000B174D2;
+			remoteInfo = com.florianbethke.Ingamium.Injector;
+		};
+		5C59C0C41797118600039BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFAF0441796EE2A00B174D2;
+			remoteInfo = com.florianbethke.Ingamium.Installer;
+		};
+		5C59C0C6179711A500039BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFAF0281796EB1000B174D2;
+			remoteInfo = com.florianbethke.Ingamium.Injector;
+		};
+		5C59C0C8179711A500039BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFAF0441796EE2A00B174D2;
+			remoteInfo = com.florianbethke.Ingamium.Installer;
+		};
+		5C59C0CA179711A500039BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C7D930B1163ACC500A10520 /* mach_inject_bundle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = mach_inject_bundle;
+		};
+		5C7D930F1163ACC500A10520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C7D930B1163ACC500A10520 /* mach_inject_bundle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = mach_inject_bundle;
+		};
+		5CEE52E2116B781C0061F737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C7D930B1163ACC500A10520 /* mach_inject_bundle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = mach_inject_bundle;
+		};
+		5CFAF0231796E8FD00B174D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CAB0FC11796E27100C203D0;
+			remoteInfo = InGameOverlay;
+		};
+		5CFAF03E1796EDB500B174D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C7D930B1163ACC500A10520 /* mach_inject_bundle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = mach_inject_bundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C59C0AA1797092100039BFB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				5C59C0AB1797092B00039BFB /* com.florianbethke.Ingamium.Injector in CopyFiles */,
+				5C59C0AC1797092B00039BFB /* com.florianbethke.Ingamium.Installer in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C59C0CC179711A900039BFB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				5C59C0CD179711B500039BFB /* mach_inject_bundle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C7D93041163AC6100A10520 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				5CD1A07317972D8300D28D30 /* Ingamium Installer.app in CopyFiles */,
+				5CFAF0221796E81100B174D2 /* InGameOverlay.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFAF0271796EB1000B174D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5CFAF0431796EE2A00B174D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32DBCF630370AF2F00C91783 /* Ingamium_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ingamium_Prefix.pch; path = ../Ingamium_Prefix.pch; sourceTree = "<group>"; };
+		5C38578D116BA7C000A0E1CF /* PreferenceWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PreferenceWindow.xib; path = Resources/PreferenceWindow.xib; sourceTree = "<group>"; };
+		5C3872A2116BB8B700A0E1CF /* Add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Add.tiff; path = Resources/Add.tiff; sourceTree = "<group>"; };
+		5C3872A4116BB8C200A0E1CF /* Remove.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Remove.tiff; path = Resources/Remove.tiff; sourceTree = "<group>"; };
+		5C484BE9118F6D5400C760D7 /* paypal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = paypal.jpg; path = Resources/paypal.jpg; sourceTree = "<group>"; };
+		5C4A7865116D2545005BA345 /* SendMail.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SendMail.txt; path = Resources/SendMail.txt; sourceTree = "<group>"; };
+		5C5163CA11FF48D7000172AE /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = Resources/Icon.icns; sourceTree = "<group>"; };
+		5C59C093179708FF00039BFB /* Ingamium Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ingamium Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C59C097179708FF00039BFB /* HelperApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelperApp-Info.plist"; sourceTree = "<group>"; };
+		5C59C099179708FF00039BFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C59C09B179708FF00039BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C59C09D179708FF00039BFB /* HelperApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelperApp-Prefix.pch"; sourceTree = "<group>"; };
+		5C59C0A1179708FF00039BFB /* FBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAppDelegate.h; sourceTree = "<group>"; };
+		5C59C0A2179708FF00039BFB /* FBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAppDelegate.m; sourceTree = "<group>"; };
+		5C59C0A51797090000039BFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5C59C0B117970AC900039BFB /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = ../../../../System/Library/Frameworks/ServiceManagement.framework; sourceTree = "<group>"; };
+		5C59C0B317970B1200039BFB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = ../../../../System/Library/Frameworks/Security.framework; sourceTree = "<group>"; };
+		5C59C0B617970E3E00039BFB /* DKFrameworkInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKFrameworkInstaller.h; sourceTree = "<group>"; };
+		5C59C0B717970E3E00039BFB /* DKFrameworkInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKFrameworkInstaller.m; sourceTree = "<group>"; };
+		5C59C0BA17970E3E00039BFB /* Installer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Installer-Info.plist"; sourceTree = "<group>"; };
+		5C59C0BB17970E3E00039BFB /* Installer-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Installer-Launchd.plist"; sourceTree = "<group>"; };
+		5C59C0BC17970E3E00039BFB /* Installer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Installer-Prefix.pch"; sourceTree = "<group>"; };
+		5C59C0BD17970E3E00039BFB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C59C0CF17972BCC00039BFB /* Icon2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon2.icns; path = Resources/Icon2.icns; sourceTree = "<group>"; };
+		5C6329D01181D8C1002A8695 /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = Frameworks/Adium.framework; sourceTree = "<group>"; };
+		5C6329D11181D8C1002A8695 /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIUtilities.framework; path = Frameworks/AIUtilities.framework; sourceTree = "<group>"; };
+		5C6329D21181D8C1002A8695 /* FriBidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FriBidi.framework; path = Frameworks/FriBidi.framework; sourceTree = "<group>"; };
+		5C7D930B1163ACC500A10520 /* mach_inject_bundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mach_inject_bundle.xcodeproj; path = mach_star/mach_inject_bundle/mach_inject_bundle.xcodeproj; sourceTree = "<group>"; };
+		5C81C15E11FF277600E40A06 /* DeletedGames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DeletedGames.plist; path = Resources/DeletedGames.plist; sourceTree = "<group>"; };
+		5CAB0FC21796E27100C203D0 /* InGameOverlay.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InGameOverlay.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAB0FC41796E27100C203D0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5CAB0FC71796E27100C203D0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5CAB0FC81796E27100C203D0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CAB0FC91796E27100C203D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CAB0FCC1796E27100C203D0 /* InGameOverlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InGameOverlay-Info.plist"; sourceTree = "<group>"; };
+		5CAB0FD01796E27100C203D0 /* InGameOverlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InGameOverlay-Prefix.pch"; sourceTree = "<group>"; };
+		5CAB0FD51796E47200C203D0 /* FBAdiumInGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAdiumInGame.h; sourceTree = "<group>"; };
+		5CAB0FD61796E47200C203D0 /* FBAdiumInGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAdiumInGame.m; sourceTree = "<group>"; };
+		5CAB0FD71796E47200C203D0 /* FBKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKeyboard.h; sourceTree = "<group>"; };
+		5CAB0FD81796E47200C203D0 /* FBKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKeyboard.m; sourceTree = "<group>"; };
+		5CAB0FD91796E47200C203D0 /* FBPreferenceWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPreferenceWindow.h; sourceTree = "<group>"; };
+		5CAB0FDA1796E47200C203D0 /* FBPreferenceWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPreferenceWindow.m; sourceTree = "<group>"; };
+		5CAB0FDB1796E47200C203D0 /* FBTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTabView.h; sourceTree = "<group>"; };
+		5CAB0FDC1796E47200C203D0 /* FBTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTabView.m; sourceTree = "<group>"; };
+		5CAB0FDD1796E47200C203D0 /* FBUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUpdater.h; sourceTree = "<group>"; };
+		5CAB0FDE1796E47200C203D0 /* FBUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUpdater.m; sourceTree = "<group>"; };
+		5CAB0FDF1796E47200C203D0 /* FBWordWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBWordWrap.h; sourceTree = "<group>"; };
+		5CAB0FE01796E47200C203D0 /* FBWordWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBWordWrap.m; sourceTree = "<group>"; };
+		5CD8D8801180E88A009812DF /* Games.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Games.plist; path = Resources/Games.plist; sourceTree = "<group>"; };
+		5CFAF0011796E53D00B174D2 /* chatfenster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatfenster.png; path = InGameOverlay/chatfenster.png; sourceTree = "<group>"; };
+		5CFAF0021796E53D00B174D2 /* FBNotificationReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNotificationReceiver.h; sourceTree = "<group>"; };
+		5CFAF0031796E53D00B174D2 /* FBNotificationReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNotificationReceiver.m; sourceTree = "<group>"; };
+		5CFAF0041796E53D00B174D2 /* FBWordWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBWordWrap.h; sourceTree = "<group>"; };
+		5CFAF0051796E53D00B174D2 /* FBWordWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBWordWrap.m; sourceTree = "<group>"; };
+		5CFAF0061796E53D00B174D2 /* GLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLString.h; sourceTree = "<group>"; };
+		5CFAF0071796E53D00B174D2 /* GLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLString.m; sourceTree = "<group>"; };
+		5CFAF00A1796E53D00B174D2 /* InGameOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameOverlay.h; sourceTree = "<group>"; };
+		5CFAF00B1796E53D00B174D2 /* InGameOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InGameOverlay.m; sourceTree = "<group>"; };
+		5CFAF00C1796E53D00B174D2 /* InjectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionHelper.m; sourceTree = "<group>"; };
+		5CFAF0161796E64B00B174D2 /* mach_override.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_override.c; sourceTree = "<group>"; };
+		5CFAF0171796E64B00B174D2 /* mach_override.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_override.h; sourceTree = "<group>"; };
+		5CFAF0201796E6A200B174D2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
+		5CFAF0291796EB1000B174D2 /* com.florianbethke.Ingamium.Injector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.florianbethke.Ingamium.Injector; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFAF02A1796EB1000B174D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CFAF02D1796EB1000B174D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CFAF0301796EB1000B174D2 /* Injector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Injector-Prefix.pch"; sourceTree = "<group>"; };
+		5CFAF0361796EBA100B174D2 /* DKInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKInjector.h; sourceTree = "<group>"; };
+		5CFAF0371796EBA100B174D2 /* DKInjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKInjector.m; sourceTree = "<group>"; };
+		5CFAF0381796EBA200B174D2 /* Injector-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Injector-Info.plist"; sourceTree = "<group>"; };
+		5CFAF0391796EBA200B174D2 /* Injector-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Injector-Launchd.plist"; sourceTree = "<group>"; };
+		5CFAF0451796EE2A00B174D2 /* com.florianbethke.Ingamium.Installer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.florianbethke.Ingamium.Installer; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFAF05E1796F44F00B174D2 /* DKInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKInstaller.h; path = ../Installer/DKInstaller.h; sourceTree = "<group>"; };
+		5CFAF05F1796F44F00B174D2 /* DKInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKInstaller.m; path = ../Installer/DKInstaller.m; sourceTree = "<group>"; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C59C090179708FF00039BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C59C094179708FF00039BFB /* Cocoa.framework in Frameworks */,
+				5C59C0B217970AC900039BFB /* ServiceManagement.framework in Frameworks */,
+				5C59C0B417970B1200039BFB /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAB0FBF1796E27100C203D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAB0FC51796E27100C203D0 /* Cocoa.framework in Frameworks */,
+				5CFAF0211796E6A200B174D2 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFAF0261796EB1000B174D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFAF0401796EDF200B174D2 /* mach_inject_bundle.framework in Frameworks */,
+				5CFAF02B1796EB1000B174D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFAF0421796EE2A00B174D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFAF0461796EE2A00B174D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6329D31181D8C1002A8695 /* Adium.framework in Frameworks */,
+				5C6329D41181D8C1002A8695 /* AIUtilities.framework in Frameworks */,
+				5C6329D51181D8C1002A8695 /* FriBidi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iFireLite */ = {
+			isa = PBXGroup;
+			children = (
+				5C7D930B1163ACC500A10520 /* mach_inject_bundle.xcodeproj */,
+				5CAB0FD41796E47200C203D0 /* AdiumPlugin */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				5CAB0FCA1796E27100C203D0 /* InGameOverlay */,
+				5C59C0B517970E3E00039BFB /* Installer */,
+				5CFAF02C1796EB1000B174D2 /* Injector */,
+				5C59C095179708FF00039BFB /* HelperApp */,
+				5CAB0FC31796E27100C203D0 /* Frameworks */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = iFireLite;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C59C0CF17972BCC00039BFB /* Icon2.icns */,
+				5CFAF0011796E53D00B174D2 /* chatfenster.png */,
+				5C5163CA11FF48D7000172AE /* Icon.icns */,
+				5C81C15E11FF277600E40A06 /* DeletedGames.plist */,
+				5C484BE9118F6D5400C760D7 /* paypal.jpg */,
+				5CD8D8801180E88A009812DF /* Games.plist */,
+				5C4A7865116D2545005BA345 /* SendMail.txt */,
+				5C3872A4116BB8C200A0E1CF /* Remove.tiff */,
+				5C3872A2116BB8B700A0E1CF /* Add.tiff */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				5C38578D116BA7C000A0E1CF /* PreferenceWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CAB0FC21796E27100C203D0 /* InGameOverlay.bundle */,
+				5CFAF0291796EB1000B174D2 /* com.florianbethke.Ingamium.Injector */,
+				5CFAF0451796EE2A00B174D2 /* com.florianbethke.Ingamium.Installer */,
+				5C59C093179708FF00039BFB /* Ingamium Installer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C59C095179708FF00039BFB /* HelperApp */ = {
+			isa = PBXGroup;
+			children = (
+				5C59C096179708FF00039BFB /* Supporting Files */,
+				5CFAF05E1796F44F00B174D2 /* DKInstaller.h */,
+				5CFAF05F1796F44F00B174D2 /* DKInstaller.m */,
+				5C59C0A1179708FF00039BFB /* FBAppDelegate.h */,
+				5C59C0A2179708FF00039BFB /* FBAppDelegate.m */,
+				5C59C0A4179708FF00039BFB /* MainMenu.xib */,
+			);
+			path = HelperApp;
+			sourceTree = "<group>";
+		};
+		5C59C096179708FF00039BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C59C097179708FF00039BFB /* HelperApp-Info.plist */,
+				5C59C098179708FF00039BFB /* InfoPlist.strings */,
+				5C59C09B179708FF00039BFB /* main.m */,
+				5C59C09D179708FF00039BFB /* HelperApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C59C0B517970E3E00039BFB /* Installer */ = {
+			isa = PBXGroup;
+			children = (
+				5C59C0B617970E3E00039BFB /* DKFrameworkInstaller.h */,
+				5C59C0B717970E3E00039BFB /* DKFrameworkInstaller.m */,
+				5C59C0BD17970E3E00039BFB /* main.m */,
+				5C59C0C117970E6400039BFB /* Supporting Files */,
+			);
+			path = Installer;
+			sourceTree = "<group>";
+		};
+		5C59C0C117970E6400039BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C59C0BA17970E3E00039BFB /* Installer-Info.plist */,
+				5C59C0BB17970E3E00039BFB /* Installer-Launchd.plist */,
+				5C59C0BC17970E3E00039BFB /* Installer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C7D930C1163ACC500A10520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C7D93101163ACC500A10520 /* mach_inject_bundle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CAB0FC31796E27100C203D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C59C0B317970B1200039BFB /* Security.framework */,
+				5C59C0B117970AC900039BFB /* ServiceManagement.framework */,
+				5CFAF0201796E6A200B174D2 /* OpenGL.framework */,
+				5CAB0FC41796E27100C203D0 /* Cocoa.framework */,
+				5CFAF02A1796EB1000B174D2 /* Foundation.framework */,
+				5CAB0FC61796E27100C203D0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CAB0FC61796E27100C203D0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C6329D01181D8C1002A8695 /* Adium.framework */,
+				5C6329D11181D8C1002A8695 /* AIUtilities.framework */,
+				5C6329D21181D8C1002A8695 /* FriBidi.framework */,
+				5CAB0FC71796E27100C203D0 /* AppKit.framework */,
+				5CAB0FC81796E27100C203D0 /* CoreData.framework */,
+				5CAB0FC91796E27100C203D0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5CAB0FCA1796E27100C203D0 /* InGameOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				5CFAF0141796E64B00B174D2 /* mach_override */,
+				5CFAF0021796E53D00B174D2 /* FBNotificationReceiver.h */,
+				5CFAF0031796E53D00B174D2 /* FBNotificationReceiver.m */,
+				5CFAF0041796E53D00B174D2 /* FBWordWrap.h */,
+				5CFAF0051796E53D00B174D2 /* FBWordWrap.m */,
+				5CFAF0061796E53D00B174D2 /* GLString.h */,
+				5CFAF0071796E53D00B174D2 /* GLString.m */,
+				5CFAF00A1796E53D00B174D2 /* InGameOverlay.h */,
+				5CFAF00B1796E53D00B174D2 /* InGameOverlay.m */,
+				5CFAF00C1796E53D00B174D2 /* InjectionHelper.m */,
+				5CAB0FCB1796E27100C203D0 /* Supporting Files */,
+			);
+			path = InGameOverlay;
+			sourceTree = "<group>";
+		};
+		5CAB0FCB1796E27100C203D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CAB0FCC1796E27100C203D0 /* InGameOverlay-Info.plist */,
+				5CAB0FD01796E27100C203D0 /* InGameOverlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CAB0FD41796E47200C203D0 /* AdiumPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* Ingamium_Prefix.pch */,
+				5CAB0FD51796E47200C203D0 /* FBAdiumInGame.h */,
+				5CAB0FD61796E47200C203D0 /* FBAdiumInGame.m */,
+				5CAB0FD71796E47200C203D0 /* FBKeyboard.h */,
+				5CAB0FD81796E47200C203D0 /* FBKeyboard.m */,
+				5CAB0FD91796E47200C203D0 /* FBPreferenceWindow.h */,
+				5CAB0FDA1796E47200C203D0 /* FBPreferenceWindow.m */,
+				5CAB0FDB1796E47200C203D0 /* FBTabView.h */,
+				5CAB0FDC1796E47200C203D0 /* FBTabView.m */,
+				5CAB0FDD1796E47200C203D0 /* FBUpdater.h */,
+				5CAB0FDE1796E47200C203D0 /* FBUpdater.m */,
+				5CAB0FDF1796E47200C203D0 /* FBWordWrap.h */,
+				5CAB0FE01796E47200C203D0 /* FBWordWrap.m */,
+			);
+			path = AdiumPlugin;
+			sourceTree = "<group>";
+		};
+		5CFAF0141796E64B00B174D2 /* mach_override */ = {
+			isa = PBXGroup;
+			children = (
+				5CFAF0161796E64B00B174D2 /* mach_override.c */,
+				5CFAF0171796E64B00B174D2 /* mach_override.h */,
+			);
+			name = mach_override;
+			path = ../mach_star/mach_override;
+			sourceTree = "<group>";
+		};
+		5CFAF02C1796EB1000B174D2 /* Injector */ = {
+			isa = PBXGroup;
+			children = (
+				5CFAF0361796EBA100B174D2 /* DKInjector.h */,
+				5CFAF0371796EBA100B174D2 /* DKInjector.m */,
+				5CFAF02D1796EB1000B174D2 /* main.m */,
+				5CFAF02F1796EB1000B174D2 /* Supporting Files */,
+			);
+			path = Injector;
+			sourceTree = "<group>";
+		};
+		5CFAF02F1796EB1000B174D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CFAF0381796EBA200B174D2 /* Injector-Info.plist */,
+				5CFAF0391796EBA200B174D2 /* Injector-Launchd.plist */,
+				5CFAF0301796EB1000B174D2 /* Injector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C59C092179708FF00039BFB /* Ingamium Installer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C59C0A71797090000039BFB /* Build configuration list for PBXNativeTarget "Ingamium Installer" */;
+			buildPhases = (
+				5C59C08F179708FF00039BFB /* Sources */,
+				5C59C090179708FF00039BFB /* Frameworks */,
+				5C59C091179708FF00039BFB /* Resources */,
+				5C59C0AA1797092100039BFB /* CopyFiles */,
+				5C59C0CC179711A900039BFB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C59C0C7179711A500039BFB /* PBXTargetDependency */,
+				5C59C0C9179711A500039BFB /* PBXTargetDependency */,
+				5C59C0CB179711A500039BFB /* PBXTargetDependency */,
+			);
+			name = "Ingamium Installer";
+			productName = HelperApp;
+			productReference = 5C59C093179708FF00039BFB /* Ingamium Installer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CAB0FC11796E27100C203D0 /* InGameOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAB0FD11796E27100C203D0 /* Build configuration list for PBXNativeTarget "InGameOverlay" */;
+			buildPhases = (
+				5CAB0FBE1796E27100C203D0 /* Sources */,
+				5CAB0FBF1796E27100C203D0 /* Frameworks */,
+				5CAB0FC01796E27100C203D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InGameOverlay;
+			productName = InGameOverlay;
+			productReference = 5CAB0FC21796E27100C203D0 /* InGameOverlay.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5CFAF0281796EB1000B174D2 /* com.florianbethke.Ingamium.Injector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFAF0331796EB1000B174D2 /* Build configuration list for PBXNativeTarget "com.florianbethke.Ingamium.Injector" */;
+			buildPhases = (
+				5CFAF0251796EB1000B174D2 /* Sources */,
+				5CFAF0261796EB1000B174D2 /* Frameworks */,
+				5CFAF0271796EB1000B174D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CFAF03F1796EDB500B174D2 /* PBXTargetDependency */,
+			);
+			name = com.florianbethke.Ingamium.Injector;
+			productName = Injector;
+			productReference = 5CFAF0291796EB1000B174D2 /* com.florianbethke.Ingamium.Injector */;
+			productType = "com.apple.product-type.tool";
+		};
+		5CFAF0441796EE2A00B174D2 /* com.florianbethke.Ingamium.Installer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFAF04E1796EE2A00B174D2 /* Build configuration list for PBXNativeTarget "com.florianbethke.Ingamium.Installer" */;
+			buildPhases = (
+				5CFAF0411796EE2A00B174D2 /* Sources */,
+				5CFAF0421796EE2A00B174D2 /* Frameworks */,
+				5CFAF0431796EE2A00B174D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.florianbethke.Ingamium.Installer;
+			productName = Installer;
+			productReference = 5CFAF0451796EE2A00B174D2 /* com.florianbethke.Ingamium.Installer */;
+			productType = "com.apple.product-type.tool";
+		};
+		8D5B49AC048680CD000E48DA /* Ingamium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Ingamium" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				5C7D93041163AC6100A10520 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C59C0C51797118600039BFB /* PBXTargetDependency */,
+				5C59C0C31797118300039BFB /* PBXTargetDependency */,
+				5C59C0AE17970A4600039BFB /* PBXTargetDependency */,
+				5CFAF0241796E8FD00B174D2 /* PBXTargetDependency */,
+				5CEE52E3116B781C0061F737 /* PBXTargetDependency */,
+			);
+			name = Ingamium;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = iFireLite;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Ingamium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				ca,
+				cs,
+				da,
+				de,
+				el_GR,
+				en,
+				en_AU,
+				en_CA,
+				en_GB,
+				es,
+				fi,
+				fr,
+				fr_CA,
+				hu,
+				is,
+				it,
+				ja,
+				nb,
+				nl,
+				pl,
+				pt,
+				pt_BR,
+				ru,
+				sl,
+				sv,
+				tr,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* iFireLite */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5C7D930C1163ACC500A10520 /* Products */;
+					ProjectRef = 5C7D930B1163ACC500A10520 /* mach_inject_bundle.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* Ingamium */,
+				5CAB0FC11796E27100C203D0 /* InGameOverlay */,
+				5CFAF0281796EB1000B174D2 /* com.florianbethke.Ingamium.Injector */,
+				5CFAF0441796EE2A00B174D2 /* com.florianbethke.Ingamium.Installer */,
+				5C59C092179708FF00039BFB /* Ingamium Installer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5C7D93101163ACC500A10520 /* mach_inject_bundle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = mach_inject_bundle.framework;
+			remoteRef = 5C7D930F1163ACC500A10520 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C59C091179708FF00039BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C59C09A179708FF00039BFB /* InfoPlist.strings in Resources */,
+				5C59C0A61797090000039BFB /* MainMenu.xib in Resources */,
+				5C59C0D017972BCC00039BFB /* Icon2.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAB0FC01796E27100C203D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFAF00D1796E53D00B174D2 /* chatfenster.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C38578E116BA7C000A0E1CF /* PreferenceWindow.xib in Resources */,
+				5C3872A3116BB8B700A0E1CF /* Add.tiff in Resources */,
+				5C3872A5116BB8C200A0E1CF /* Remove.tiff in Resources */,
+				5C4A7866116D2545005BA345 /* SendMail.txt in Resources */,
+				5CD8D8811180E88A009812DF /* Games.plist in Resources */,
+				5C484BEA118F6D5400C760D7 /* paypal.jpg in Resources */,
+				5C81C15F11FF277600E40A06 /* DeletedGames.plist in Resources */,
+				5C5163CB11FF48D7000172AE /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C59C08F179708FF00039BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C59C09C179708FF00039BFB /* main.m in Sources */,
+				5C59C0A3179708FF00039BFB /* FBAppDelegate.m in Sources */,
+				5C59C0B017970A8900039BFB /* DKInstaller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAB0FBE1796E27100C203D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFAF00E1796E53D00B174D2 /* FBNotificationReceiver.m in Sources */,
+				5CFAF00F1796E53D00B174D2 /* FBWordWrap.m in Sources */,
+				5CFAF0101796E53D00B174D2 /* GLString.m in Sources */,
+				5CFAF0121796E53D00B174D2 /* InGameOverlay.m in Sources */,
+				5CFAF01C1796E64B00B174D2 /* mach_override.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFAF0251796EB1000B174D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFAF02E1796EB1000B174D2 /* main.m in Sources */,
+				5CFAF03A1796EBA200B174D2 /* DKInjector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFAF0411796EE2A00B174D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C59C0BE17970E3E00039BFB /* DKFrameworkInstaller.m in Sources */,
+				5C59C0C017970E3E00039BFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAB0FE11796E47200C203D0 /* FBAdiumInGame.m in Sources */,
+				5CAB0FE21796E47200C203D0 /* FBKeyboard.m in Sources */,
+				5CAB0FE31796E47200C203D0 /* FBPreferenceWindow.m in Sources */,
+				5CAB0FE41796E47200C203D0 /* FBTabView.m in Sources */,
+				5CAB0FE51796E47200C203D0 /* FBUpdater.m in Sources */,
+				5CAB0FE61796E47200C203D0 /* FBWordWrap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C59C0AE17970A4600039BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C59C092179708FF00039BFB /* Ingamium Installer */;
+			targetProxy = 5C59C0AD17970A4600039BFB /* PBXContainerItemProxy */;
+		};
+		5C59C0C31797118300039BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CFAF0281796EB1000B174D2 /* com.florianbethke.Ingamium.Injector */;
+			targetProxy = 5C59C0C21797118300039BFB /* PBXContainerItemProxy */;
+		};
+		5C59C0C51797118600039BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CFAF0441796EE2A00B174D2 /* com.florianbethke.Ingamium.Installer */;
+			targetProxy = 5C59C0C41797118600039BFB /* PBXContainerItemProxy */;
+		};
+		5C59C0C7179711A500039BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CFAF0281796EB1000B174D2 /* com.florianbethke.Ingamium.Injector */;
+			targetProxy = 5C59C0C6179711A500039BFB /* PBXContainerItemProxy */;
+		};
+		5C59C0C9179711A500039BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CFAF0441796EE2A00B174D2 /* com.florianbethke.Ingamium.Installer */;
+			targetProxy = 5C59C0C8179711A500039BFB /* PBXContainerItemProxy */;
+		};
+		5C59C0CB179711A500039BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mach_inject_bundle;
+			targetProxy = 5C59C0CA179711A500039BFB /* PBXContainerItemProxy */;
+		};
+		5CEE52E3116B781C0061F737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mach_inject_bundle;
+			targetProxy = 5CEE52E2116B781C0061F737 /* PBXContainerItemProxy */;
+		};
+		5CFAF0241796E8FD00B174D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CAB0FC11796E27100C203D0 /* InGameOverlay */;
+			targetProxy = 5CFAF0231796E8FD00B174D2 /* PBXContainerItemProxy */;
+		};
+		5CFAF03F1796EDB500B174D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mach_inject_bundle;
+			targetProxy = 5CFAF03E1796EDB500B174D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C59C098179708FF00039BFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C59C099179708FF00039BFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C59C0A4179708FF00039BFB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C59C0A51797090000039BFB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/cocoa/adium/Frameworks/AIUtilities",
+					"Framework/build/**",
+					"~/cocoa/adium/build/**",
+					"\"$(SRCROOT)/../../../../adium/build/Debug\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../adium-1.3.6/build/Development\"",
+					"\"$(SRCROOT)/../../adium/build/Debug\"",
+					"\"$(SRCROOT)/../../adium/build/Release\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "~/cocoa/adium/Source/**";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = Ingamium;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/cocoa/adium/Frameworks/AIUtilities",
+					"Framework/build/**",
+					"~/cocoa/adium/build/**",
+					"\"$(SRCROOT)/../../../../adium/build/Debug\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../adium-1.3.6/build/Development\"",
+					"\"$(SRCROOT)/../../adium/build/Debug\"",
+					"\"$(SRCROOT)/../../adium/build/Release\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ingamium_Prefix.pch;
+				HEADER_SEARCH_PATHS = "~/cocoa/adium/Source/**";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = Ingamium;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C59C0A81797090000039BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelperApp/HelperApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "HelperApp/HelperApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C59C0A91797090000039BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelperApp/HelperApp-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "HelperApp/HelperApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CAB0FD21796E27100C203D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InGameOverlay/InGameOverlay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "InGameOverlay/InGameOverlay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5CAB0FD31796E27100C203D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InGameOverlay/InGameOverlay-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "InGameOverlay/InGameOverlay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5CFAF0341796EB1000B174D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Injector/Injector-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/mach_star/mach_inject_bundle\"";
+				INFOPLIST_FILE = "Injector/Injector-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"Injector/Injector-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"Injector/Injector-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CFAF0351796EB1000B174D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Injector/Injector-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/mach_star/mach_inject_bundle\"";
+				INFOPLIST_FILE = "Injector/Injector-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"Injector/Injector-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"Injector/Injector-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CFAF04F1796EE2A00B174D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Installer/Installer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Installer/Installer-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"Installer/Installer-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"Installer/Installer-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CFAF0501796EE2A00B174D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Testzertifikat;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Installer/Installer-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Installer/Installer-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"Installer/Installer-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"Installer/Installer-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Ingamium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Ingamium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C59C0A71797090000039BFB /* Build configuration list for PBXNativeTarget "Ingamium Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C59C0A81797090000039BFB /* Debug */,
+				5C59C0A91797090000039BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CAB0FD11796E27100C203D0 /* Build configuration list for PBXNativeTarget "InGameOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAB0FD21796E27100C203D0 /* Debug */,
+				5CAB0FD31796E27100C203D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFAF0331796EB1000B174D2 /* Build configuration list for PBXNativeTarget "com.florianbethke.Ingamium.Injector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFAF0341796EB1000B174D2 /* Debug */,
+				5CFAF0351796EB1000B174D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFAF04E1796EE2A00B174D2 /* Build configuration list for PBXNativeTarget "com.florianbethke.Ingamium.Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFAF04F1796EE2A00B174D2 /* Debug */,
+				5CFAF0501796EE2A00B174D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
