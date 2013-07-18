@@ -67,8 +67,8 @@ NSString *const DKErrInjectionDescription = @"An error occurred while injecting 
       NSString *bundlePath = [[NSBundle	bundleForClass:[self class]] bundlePath];
       FILE *myCommunicationsPipe = NULL;
       NSString *myPath = @"/bin/cp";
-      bundlePath = [parentURL path];
-      char *myCPArguments[] = { "-R", (char *)[bundlePath UTF8String], "/System/Library/Ingamium/", NULL };
+      bundlePath = [NSString stringWithFormat:@"%@/.", [parentURL path]];
+      char *myCPArguments[] = { "-R", (char *)[bundlePath UTF8String], "/System/Library/Ingamium", NULL };
       AuthorizationExecuteWithPrivileges(authRef, [myPath UTF8String],
                                         kAuthorizationFlagDefaults, myCPArguments,
                                         &myCommunicationsPipe);
