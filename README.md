@@ -53,4 +53,4 @@ Ingamium is a plugin for the free chat client Adium. It allows you to receive me
 
 ## Screenshots
 ![Ingame Message](https://raw.github.com/Fl0ri4n/Ingamium/master/Resources/screenshot1.png)
-![Ingame Message2](https://raw.github.com/Fl0ri4n/Ingamium/master/Resources/screenshot2.png)
+![Ingame Message2](https://raw.github.com/Fl0ri4n/Ingamium/master/Resources/screenshot2.tiff)
