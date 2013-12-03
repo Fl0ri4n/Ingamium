@@ -12,11 +12,12 @@ Ingamium is a plugin for the free chat client Adium. It allows you to receive me
 
 ### Requirements
 * Adium 1.4
-* Mac OS X 10.6 - 10.8
+* Mac OS X 10.6 - 10.9
 * Admin password at first launch
+* NOTE: If you're using OS X 10.9 Mavericks, you'll have to go to "Security & Privacy" in your System Preferences, open the tab "Privacy", select "Accessibility" from the list and drag'n'drop Adium into the list of trusted applications. Otherwise, you won't be able to answer incoming chat messages, because Adium doesn't have the permission to access your keyboard by default. This might be automated in any future version if I find the time to look at it.
 
 ### TODO
-* Test it on 10.9 Mavericks
+* ~~Test it on 10.9 Mavericks~~
 * More architectures: x86_64 and PPC (OSX 10.5)
 * Remove deprecated API calls
 * Add more games!
